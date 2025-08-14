@@ -18,4 +18,4 @@ It comes with a simple **Graphical User Interface (GUI)** for easy use.
 1. Clone the repository:
    ```bash
    git clone <your-repo-link>
-   cd Marvellous-PackerUnpacker
+   cd PackerUnpacker

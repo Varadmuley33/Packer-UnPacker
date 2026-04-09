@@ -3,7 +3,7 @@ import java.util.*;
 import javax.swing.*;
 import java.awt.event.*;
 
-class PackerUnpackerGUI extends JFrame implements ActionListener
+class PackerUnpackerGUI extends JFrame implements ActionListener   
 {
     JButton bPack, bUnpack, bExecute;
     JTextField tFolder, tPackFile;

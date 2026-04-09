@@ -6,7 +6,7 @@ import javax.swing.*;
 class MarvellousPacker
 {
     private String PackName;
-    private String DirName;
+    private String DirName;    
 
     public MarvellousPacker(String A, String B)
     {

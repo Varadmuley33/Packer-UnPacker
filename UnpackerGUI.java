@@ -4,11 +4,11 @@ import java.awt.*;
 import java.io.*;    
 import java.util.*;
 
-class MarvellousUnpacker
+class Unpacker
 {
     private String PackName;
 
-    public MarvellousUnpacker(String A)
+    public Unpacker(String A)
     {
         this.PackName = A;
     }
@@ -20,7 +20,7 @@ class MarvellousUnpacker
         try
         {
             output.append("--------------------------------------------------------\n");
-            output.append("----------- Marvellous Packer Unpacker -----------------\n");
+            output.append("---------------- Packer Unpacker -----------------------\n");
             output.append("--------------------------------------------------------\n");
             output.append("----------------- UnPacking Activity -------------------\n");
             output.append("--------------------------------------------------------\n");
@@ -89,12 +89,12 @@ public class UnpackerGUI extends JFrame
 
     public UnpackerGUI()
     {
-        setTitle("Marvellous Unpacker");
+        setTitle("Unpacker");
         setSize(500, 400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
 
-        JLabel lblTitle = new JLabel("Marvellous Unpacker GUI", JLabel.CENTER);
+        JLabel lblTitle = new JLabel("Unpacker GUI", JLabel.CENTER);
         lblTitle.setFont(new Font("Arial", Font.BOLD, 18));
         add(lblTitle, BorderLayout.NORTH);
 
@@ -126,7 +126,7 @@ public class UnpackerGUI extends JFrame
                 }
                 else
                 {
-                    MarvellousUnpacker mobj = new MarvellousUnpacker(filename);
+                    Unpacker mobj = new Unpacker(filename);
                     String result = mobj.UnpackingActivity();
                     txtOutput.setText(result);
 

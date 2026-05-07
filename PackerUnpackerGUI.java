@@ -10,7 +10,7 @@ class PackerUnpackerGUI extends JFrame implements ActionListener
     JLabel lFolder, lPackFile, lTitle;
 
     String mode = "";
-
+       
     ///////////////////////////////////////////////////////////
     // Constructor
     ///////////////////////////////////////////////////////////
